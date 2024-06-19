@@ -1,0 +1,74 @@
+body{
+  background-color: #212121;
+}
+.players{
+  background-color: cadetblue;
+  text-align: center;
+  width: 90%;
+  max-width: 1040px;
+  font-weight: bold;
+  padding-right: 0;
+  margin: 0;
+}
+/* .p{
+  padding: 15px;
+  /* align-items: center; */
+  max-width: 350px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: auto;
+  /* width: 200px; */
+  /* padding-left: 250px; */
+} */
+@media (min-width: 600px) {
+  .players{
+    width: 80%;
+  }
+  .p{
+    width: 30%;
+  }
+}
+.p1, .p2,.p3,.p4,.p5,.p6,.p7,.p8{
+  border: solid 2px greenyellow;
+  border-radius: 5px;
+  height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .p {
+  width: 90%; /* Default width for mobile devices */
+  max-width: 800px; /* Maximum width for larger screens */
+  /* background-color: cadetblue; */
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+@media (min-width: 600px) {
+  .responsive-div {
+      width: 80%; /* Adjust width for tablets */
+  }
+}
+
+@media (min-width: 992px) {
+  .responsive-div {
+      width: 70%; /* Adjust width for desktops */
+  }
+} 
